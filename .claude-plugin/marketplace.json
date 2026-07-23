@@ -1,13 +1,18 @@
 {
-  "marketplace": [
+  "name": "onco-insight-marketplace",
+  "owner": {
+    "name": "Balaga Raghuram"
+  },
+  "plugins": [
     {
       "name": "onco-insight",
+      "source": "./",
       "displayName": "OncoInsight",
-      "version": "0.1.0",
       "description": "AI-powered biomarker-to-clinical-trial matching for oncology research. Query ClinicalTrials.gov and cBioPortal to match cancer biomarkers with active clinical trials.",
-      "author": "Balaga Raghuram",
-      "repository": "https://github.com/balagaraghuram1/claudecode-plugin",
-      "homepage": "https://github.com/balagaraghuram1/claudecode-plugin",
+      "version": "0.1.0",
+      "author": {
+        "name": "Balaga Raghuram"
+      },
       "keywords": ["oncology", "cancer", "clinical-trials", "biomarker", "precision-medicine"],
       "defaultEnabled": true
     }
