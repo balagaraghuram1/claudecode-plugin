@@ -1,5 +1,6 @@
 {
   "name": "onco-insight-marketplace",
+  "description": "Cancer research tools: biomarker-to-clinical-trial matching via ClinicalTrials.gov and cBioPortal",
   "owner": {
     "name": "Balaga Raghuram"
   },
