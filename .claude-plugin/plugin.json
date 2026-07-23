@@ -1,0 +1,19 @@
+{
+  "name": "onco-insight",
+  "displayName": "OncoInsight",
+  "version": "0.1.0",
+  "description": "AI-powered biomarker-to-clinical-trial matching for oncology research.",
+  "author": {
+    "name": "Balaga Raghuram",
+    "url": "https://github.com/balagaraghuram1"
+  },
+  "repository": "https://github.com/balagaraghuram1/claudecode-plugin",
+  "license": "MIT",
+  "keywords": ["oncology", "cancer", "clinical-trials", "biomarker", "precision-medicine", "research"],
+  "mcpServers": {
+    "onco-insight": {
+      "command": "node",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/mcp-server/dist/index.js"]
+    }
+  }
+}
