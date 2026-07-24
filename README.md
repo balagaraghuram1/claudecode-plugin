@@ -71,9 +71,18 @@ The flagship `analyze_biomarker_trial_match` tool chains both sources:
 | `get_cancer_study_summary` | Get study metadata from cBioPortal |
 | `analyze_biomarker_trial_match` | Combined biomarker mutation + trial matching |
 
+## VS Code Extension (Copilot Agent Mode)
+
+### Install from GitHub Release
+
+1. Download `onco-insight-0.1.0.vsix` from [Releases](https://github.com/balagaraghuram1/claudecode-plugin/releases/tag/v0.1.0)
+2. Install: `code --install-extension onco-insight-0.1.0.vsix`
+3. Open VS Code → Chat panel → Agent mode → OncoInsight tools are available
+
 ## Requirements
 
-- Claude Code with plugin support
+- Claude Code with plugin support (for Claude Code plugin)
+- VS Code with Copilot extension (for VS Code extension)
 - Node.js 18+ (for the MCP server)
 
 ## License
