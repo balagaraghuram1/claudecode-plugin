@@ -3,3 +3,14 @@ dist/
 *.js.map
 .env
 .DS_Store
+
+# Security additions
+.env*
+!.env.example
+.idea/
+__pycache__/
+venv/
+*.pem
+*.key
+Thumbs.db
+
